@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cart{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.cart-titl{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cart-box{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 15% 15% ;
+    align-items:flex-end;
+   
+    margin-bottom: 1.5rem;
+}
+img{
+    width: 200px;
+    height: 301px;
+}
+.cart-product-titale{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight:bold;
+    padding-top: 5px;
+}
+.cart-price{
+    font-weight: bolder;
+}
+.cart-quantity{
+    width: 40px;
+
+}

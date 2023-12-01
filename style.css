@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif ;
+}
+#logo img{
+    width: 100px;
+    height: 50px;
+}
+.all-content{
+    background:white;
+}
+#navbar{
+    background-color: rgba(233, 157, 15, 0.842);
+    border-radius: 10px;  
+}
+#logo img{
+    margin-left: 10%;
+    border-radius: 30px;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+
+.nav-item .nav-link{
+    color: black;
+    font-size:large;
+}
+
+.navbar form button{
+    color: white;
+    background-color:black;
+   margin-right: 20px;
+}
+.navbar form span{
+    color: black;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.navbar form input{
+    width: 260px;
+    /*home*/
+}
+#Home{
+    width: 100%;
+    height: 90vh;
+    background-image: url(images/main\ page\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1%;
+}
+#Home .content h2{
+    padding-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color:wheat;
+}
+#Home .content p{
+    margin-top: 10px;
+    margin-left: 25px;
+    color: white;
+    font-size: 20px;
+}
+#button-1{
+    width: 150px;
+    height: 36px;
+    margin-left: 25px;
+    margin-top: 50px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: black;
+    color: white;   
+    transition: 0.5s;
+    cursor: pointer;
+}
+#button-1:hover{
+    background:orange ;
+}
+/*about*/
+#About{
+    width: 100%;
+    height: 90vh;
+    background-image: url(images/2\ page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1%;
+}
+.heading{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+span{
+    color: rgb(226, 154, 20);
+    font-size: 30px;
+}
+#About .container .collam{
+  margin-top: 20px;
+}
+#About .container .collam h3{
+    color: wheat;
+    text-align: right;
+}
+
+#About .container .collam ol li{
+    list-style-type: decimal;
+    color: white;
+    margin-left: 650px;
+}
+#button-2 {
+    width: 150px;
+    height: 36px;
+  margin-left: 700px;
+    margin-top: 50px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: black;
+    color: white;   
+    transition: 0.5s;
+    cursor: pointer;
+}
+#button-2:hover{
+    background:orange ;
+}
+/*menu*/
+#Menu{
+    width: 100%;
+    margin: 0px;
+}
+.heading_3{
+    text-align: center;
+    font-size: 30px;
+    color:  rgb(226, 154, 20);
+    font-weight: bold;
+    border-bottom: 2px solid rgb(180, 103, 30);
+}
+#container_2{
+    margin-top: 20px;
+}
+#Menu .card{
+    box-shadow: rgh(149,157,165,0.2) 0px 8px 24px;
+}
+.card-body h3{
+    text-align: center;
+    color: brown;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.card-body p{
+    font-size: 15px;
+    color: rgba(187, 96, 22, 0.897);
+    padding-top: 10px;
+}
+strike{
+    color: green;
+}
+.card {
+    width: 216px;
+    height: 531.91px;
+}
+/*cart image*/
+.card img{
+    width: 200px;
+    height: 301px;
+    border-radius: 15px;
+}
+button{
+    margin-left: 20px;
+    color: white;
+   background-color: rgb(163, 109, 39); 
+   transition: 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(73, 165, 73);
+}
+#cart-button{
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#Contact{
+    width: 100%;
+  margin-top: 20px;
+}
+ .heading-4{
+    color: rgb(153, 113, 60);
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 2px solid rgb(180, 103, 30);
+}
+label{
+     font-size: 20px;
+     margin-top: 20px;
+}
+#submit{
+    width: 150px;
+    height: 36px; 
+    margin-top: 5px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color:rgb(9, 149, 243);
+    color: white;   
+    transition: 0.5s;
+    cursor: pointer;
+}
+#submit:hover{
+    background:orange ;
+}
+
+#mu-footer{
+    width: 100%;  
+    margin: 10px;  
+    background-color: rgba(194, 119, 20, 0.959);
+    color: white;
+}
+h3 {
+    margin-left: 50px;
+}
+ul{
+    margin-left: 50px;
+}
+
